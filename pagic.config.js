@@ -38,7 +38,7 @@ export default {
         tocLevel: [1, 2, 3, 4]
     },
     head: (React.createElement(React.Fragment, null,
-        React.createElement("link", { rel: "stylesheet", type: "text/css", id: "customTheme", href: "/assets/theme.css" }),
-        React.createElement("script", { src: "/assets/custom.js" }))),
+        React.createElement("link", { rel: "stylesheet", type: "text/css", id: "customTheme", href: "/docs/assets/theme.css" }),
+        React.createElement("script", { src: "/docs/assets/custom.js" }))),
     port: 8000,
 };

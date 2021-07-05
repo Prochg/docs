@@ -11,8 +11,8 @@ export default {
             __html: '<p><a href="https://prochg.github.io/docs/">斜阳草树 寻常巷陌</a></p>'
         } }),
     'head': React.createElement(React.Fragment, null,
-        React.createElement("link", { href: "/assets/theme.css", id: "customTheme", rel: "stylesheet", type: "text/css" }),
-        React.createElement("script", { src: "/assets/custom.js" })),
+        React.createElement("link", { href: "/docs/assets/theme.css", id: "customTheme", rel: "stylesheet", type: "text/css" }),
+        React.createElement("script", { src: "/docs/assets/custom.js" })),
     'script': React.createElement(React.Fragment, null,
         React.createElement("script", { src: "https://cdn.pagic.org/react@16.13.1/umd/react.production.min.js" }),
         React.createElement("script", { src: "https://cdn.pagic.org/react-dom@16.13.1/umd/react-dom.production.min.js" }),
