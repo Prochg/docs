@@ -10,6 +10,7 @@ const sidebar = {
     {
       text: 'C++',
       children: [
+		'C++/lambda.md',
       ]
     },
     {
