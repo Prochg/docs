@@ -1,0 +1,8 @@
+.main_article {
+	width: 70rem !important;
+	max-width: 70rem !important;
+}
+
+footer {
+	visibility: hidden;
+}

@@ -1,3 +1,5 @@
+import { React } from 'https://deno.land/x/pagic@v1.3.1/mod.ts';
+
 const nav = [
   {
     text: '技术文档',
@@ -35,5 +37,6 @@ export default {
     editOnGitHub: false,
     backToTop: true,
   },
+  head: <link rel="stylesheet" type="text/css" href="/asserts/theme.css" />,
   port: 8000,
 };
