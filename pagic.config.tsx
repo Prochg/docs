@@ -44,8 +44,8 @@ export default {
   },
   head: (
 	<>
-		<link rel="stylesheet" type="text/css" id="customTheme" href="/assets/theme.css" />
-		<script src="/assets/custom.js" />
+		<link rel="stylesheet" type="text/css" id="customTheme" href="/docs/assets/theme.css" />
+		<script src="/docs/assets/custom.js" />
 	</>
 	),
   port: 8000,
