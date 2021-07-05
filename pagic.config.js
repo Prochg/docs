@@ -8,7 +8,9 @@ const sidebar = {
     '/': [
         {
             text: 'C++',
-            children: []
+            children: [
+                'C++/lambda.md',
+            ]
         },
         {
             text: 'Windows系统开发',

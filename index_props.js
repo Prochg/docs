@@ -31,7 +31,13 @@ export default {
     'sidebar': [
         {
             "text": "C++",
-            "children": []
+            "children": [
+                {
+                    "text": "C++ lambda",
+                    "link": "C++/lambda.html",
+                    "pagePath": "C++/lambda.md"
+                }
+            ]
         },
         {
             "text": "Windows系统开发",
