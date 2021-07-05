@@ -37,6 +37,6 @@ export default {
     editOnGitHub: false,
     backToTop: true,
   },
-  head: <link rel="stylesheet" type="text/css" href="/asserts/theme.css" />,
+  head: <link rel="stylesheet" type="text/css" href="/assets/theme.css" />,
   port: 8000,
 };
