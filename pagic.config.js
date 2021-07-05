@@ -32,5 +32,6 @@ export default {
         editOnGitHub: false,
         backToTop: true,
     },
+    head: React.createElement("link", { rel: "stylesheet", type: "text/css", href: "/asserts/theme.css" }),
     port: 8000,
 };
