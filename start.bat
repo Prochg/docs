@@ -1,0 +1,1 @@
+pagic build --watch --serve
