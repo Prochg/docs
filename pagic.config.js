@@ -32,6 +32,13 @@ export default {
         editOnGitHub: false,
         backToTop: true,
     },
-    head: React.createElement("link", { rel: "stylesheet", type: "text/css", href: "/assets/theme.css" }),
+    md: {
+        anchorLevel: [1, 2, 3, 4, 5, 6],
+        tocEnabled: true,
+        tocLevel: [1, 2, 3, 4]
+    },
+    head: (React.createElement(React.Fragment, null,
+        React.createElement("link", { rel: "stylesheet", type: "text/css", id: "customTheme", href: "/assets/theme.css" }),
+        React.createElement("script", { src: "/assets/custom.js" }))),
     port: 8000,
 };

@@ -6,3 +6,21 @@
 footer {
 	visibility: hidden;
 }
+
+.sidebar {
+	background: #fefefe !important;
+}
+
+pre[class*="language-"] {
+	background: #f6f8fa !important;
+}
+
+.is_dark .sidebar {
+	background: #1a1a1a !important;
+}
+
+
+.is_dark pre[class*="language-"] {
+	background: #2d2d2d !important;
+}
+
